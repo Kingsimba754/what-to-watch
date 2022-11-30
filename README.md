@@ -7,6 +7,7 @@
 - CSS3
 - JAVASCRIPT/JQUERY
 - MOVIE DATABASE
+- Git/Github - Github pages for Hosting
 
 ## Screenshots
 
