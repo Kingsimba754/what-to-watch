@@ -20,4 +20,4 @@ const API_URL = {
 
 //Register Event Listener
 
-Functions
+//Functions
