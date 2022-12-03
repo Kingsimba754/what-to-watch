@@ -1,6 +1,12 @@
 //IPO-Input -> process -> Output
 
 //Constants and variables  
+const $title = ("#title")
+const $year = ("#year")
+const $rating = ("#Rating")
+const $awards = ("#awards")
+const $Description = ("#plot")
+
 const API_URL = {
 	"async": true,
 	"crossDomain": true,
