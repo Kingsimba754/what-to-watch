@@ -11,10 +11,11 @@ const API_URL = {
 		"X-RapidAPI-Host": "utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com"
 	}
 };
-
-// $.ajax(API_URL).then(function (data) {
-// 	console.log(data);
-// });
+function handleGetData(){
+$.ajax(API_URL).then(function (data) {
+	console.log(data);
+})
+};
 
 
 
