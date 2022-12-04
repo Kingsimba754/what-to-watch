@@ -5,11 +5,19 @@ const $name = $("#name");
 const $StreamingService = $("#streaming-service");
 const $imdb = $("#imdb");
 const $pic = $("#pic");
+const letters = "abcdefghijklmnopqrstuvwxyz"
+const $button = $("#generateMov") 
 
+/////////
+//Functions
+/////////
+
+function handleGetData(event) {
+const randomLetter = letters[Math.floor(Math.random() * letters.length)];
 const API_URL = {
   async: true,
   crossDomain: true,
-  url: "https://utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com/lookup?term=bobs-burgers&country=uk",
+  url: `https://utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com/lookup?term=${randomLetter}`,
   method: "GET",
   headers: {
     "X-RapidAPI-Key": "bc08df07a1msh300c9fd8b57a6a6p1d7054jsn0439cf76e0d2",
@@ -17,10 +25,6 @@ const API_URL = {
       "utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com",
   },
 };
-/////////
-//Functions
-/////////
-function handleGetData(event) {
   // event.preventdefault();
   $.ajax(API_URL).then(
     function (data) {
@@ -37,7 +41,7 @@ function handleGetData(event) {
   );
 }
 
-handleGetData();
-//Register Event Listener
 
+//Register Event Listener
+$button.on("click", handleGetData)
 //Functions
