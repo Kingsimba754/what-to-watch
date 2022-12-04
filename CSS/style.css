@@ -5,6 +5,11 @@ body {
   font-family : "Open Sans", sans-serif;
 }
 
+#pic{
+  max-width: 25%;
+  display: block;
+}
+
 h1 {
   padding: 40px; 
   text-align: center;

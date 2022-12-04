@@ -4,6 +4,7 @@
 const $name = $("#name");
 const $StreamingService = $("#streaming-service");
 const $imdb = $("#imdb");
+const $pic = $("#pic");
 
 const API_URL = {
   async: true,
@@ -27,6 +28,8 @@ function handleGetData(event) {
       $name.text(data.results[0].name);
       $StreamingService.text(data.results[0].locations[0].display_name);
       $imdb.attr("href", data.results[0].external_ids.imdb.url);
+	  $pic.attr("src", data.results[0].picture)
+	
     },
     (error) => {
       console.log("bad request", error);
