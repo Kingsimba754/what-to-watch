@@ -2,7 +2,7 @@
 
 ## Description
  This is a random Movie/TV show selector for those people that dont know what to watch from the thousands of options out there.
- click on the generate movie button and it will pick a random movie or TV show for you.
+ click on the generate movie button and it will pick a random movie or TV show for you. 
  It will display the name of the show, the streaming service you can find it on and the IMDB link for more information.
 ## Technologies Used
 - HTML5
