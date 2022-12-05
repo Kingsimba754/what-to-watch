@@ -1,41 +1,37 @@
-*{
-
+* {
   flex-direction: column;
   text-align: center;
-
 }
-button{
+button {
   max-width: 50%;
   text-align: center;
   color: white;
-  background-color: goldenrod ;
+  background-color: goldenrod;
+  padding: 10px;
+  margin: 10px;
 }
 
 body {
-  background-color : black; 
-  font-family : "Open Sans", sans-serif;
-  color:gold
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+  color: gold;
 }
 
-#pic{
+#pic {
   max-width: 25%;
   display: block;
   margin: auto;
 }
 
 h1 {
-  padding: 40px; 
+  padding: 40px;
   text-align: center;
 }
 
-h2{
+h2 {
   text-align: center;
-
 }
 
-div{
-text-align: center;
+div {
+  text-align: center;
 }
-
-
-
