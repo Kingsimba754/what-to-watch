@@ -1,11 +1,25 @@
+*{
 
+  flex-direction: column;
+  text-align: center;
+
+}
+button{
+  max-width: 50%;
+  text-align: center;
+  color: white;
+  background-color: goldenrod ;
+}
 
 body {
-  background-color : #ededed; 
+  background-color : black; 
   font-family : "Open Sans", sans-serif;
+  color:gold
 }
 
 #pic{
+  display: flex;
+  justify-self: center;
   max-width: 25%;
   display: block;
 }

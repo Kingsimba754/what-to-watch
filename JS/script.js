@@ -8,6 +8,7 @@ const $pic = $("#pic");
 const letters = "abcdefghijklmnopqrstuvwxyz"
 const $button = $("#generateMov") 
 
+
 /////////
 //Functions
 /////////
@@ -25,14 +26,14 @@ const API_URL = {
       "utelly-tv-shows-and-movies-availability-v1.p.rapidapi.com",
   },
 };
-  // event.preventdefault();
   $.ajax(API_URL).then(
     function (data) {
+	const dblrandom = data.results[Math.floor(Math.random() * data.results.length)]
       console.log(data);
-      $name.text(data.results[0].name);
-      $StreamingService.text(data.results[0].locations[0].display_name);
-      $imdb.attr("href", data.results[0].external_ids.imdb.url);
-	  $pic.attr("src", data.results[0].picture)
+      $name.text(dblrandom.name);
+      $StreamingService.text(dblrandom.locations[0].display_name);
+      $imdb.attr("href", dblrandom.external_ids.imdb.url);
+	  $pic.attr("src", dblrandom.picture)
 	
     },
     (error) => {
