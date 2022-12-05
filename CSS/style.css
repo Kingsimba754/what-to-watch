@@ -18,10 +18,9 @@ body {
 }
 
 #pic{
-  display: flex;
-  justify-self: center;
   max-width: 25%;
   display: block;
+  margin: auto;
 }
 
 h1 {
@@ -34,8 +33,9 @@ h2{
 
 }
 
-div.movieSel{
-  text-align: center;
+div{
+text-align: center;
 }
+
 
 
