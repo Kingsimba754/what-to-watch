@@ -12,7 +12,7 @@
 - Git/Github - Github pages for Hosting
 
 ## Screenshots
-
+![wireframe](Photos/Screen%20Shot%202022-12-06%20at%201.51.26%20PM.png)
 
 ## Getting Started
 [Get Started here]
