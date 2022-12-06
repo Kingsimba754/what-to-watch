@@ -17,4 +17,8 @@
 ## Getting Started
 [Get Started here]
 
-## Features:
+## Features: 
+- Movie generator 
+- Picks random movie to watch
+- Show picture of the Moive 
+- gives you the IMDB link for more information on the Movie
