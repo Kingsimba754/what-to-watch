@@ -16,7 +16,7 @@
 ![wireframe](Photos/what%20to%20watch%202.png)
 
 ## Getting Started
-[Get Started here]
+[Get Started here](https://kingsimba754.github.io/what-to-watch./)
 
 ## Features: 
 - Movie generator 
