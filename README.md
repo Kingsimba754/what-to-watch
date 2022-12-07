@@ -23,3 +23,4 @@
 - Picks random movie to watch
 - Show picture of the Moive 
 - gives you the IMDB link for more information on the Movie
+- Hope you enjoy
