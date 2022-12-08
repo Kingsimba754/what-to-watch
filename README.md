@@ -15,7 +15,7 @@
 ![wirefarme](Photos/Screen%20Shot%202022-12-06%20at%201.51.26%20PM.png)
 
 ## Getting Started
-[Get Started here](https://kingsimba754.github.io/what-to-watch./)
+[Get Started here]
 
 ## Features: 
 - Movie generator 
