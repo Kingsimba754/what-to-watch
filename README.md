@@ -9,7 +9,8 @@
 - CSS3
 - JAVASCRIPT/JQUERY
 - MOVIE DATABASE
-- Git/Github - Github pages for Hosting
+- Git/Github 
+- Github pages for Hosting
 
 ## Screenshots
 ![wirefarme](Photos/Screen%20Shot%202022-12-06%20at%201.51.26%20PM.png)
